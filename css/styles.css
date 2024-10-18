@@ -92,12 +92,17 @@
 } */
 
 @media (max-width: 768px) {
-  .navbar-nav {
-    text-align: center;
+  #sidebar-wrapper {
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      z-index: 999;
   }
-  
-  .navbar-brand {
-    font-size: 1.25rem;
+
+  #sidebar-wrapper.active {
+      width: 100%;
   }
 }
 
