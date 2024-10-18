@@ -304,9 +304,8 @@ figure {
   margin: 0 0 1rem;
 }
 .profile-img {
-  max-width: 50%;
-  height: 50px;
-  width: 50px;
+  max-width: 50px;
+
 }
 
 .img-fluid {
