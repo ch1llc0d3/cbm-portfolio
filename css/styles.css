@@ -303,8 +303,10 @@ kbd kbd {
 figure {
   margin: 0 0 1rem;
 }
-profile-img {
-  max-width: 200px;
+.profile-img {
+  max-width: 50%;
+  height: 150px;
+  width: 150px;
 }
 
 img,
