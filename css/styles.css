@@ -5416,6 +5416,17 @@ textarea.form-control-lg {
 .modal-footer > * {
   margin: calc(var(--bs-modal-footer-gap) * 0.5);
 }
+/* For mobile screens */
+@media (max-width: 992px) {
+  .navbar-collapse {
+      background-color: #343a40; /* Navbar background when collapsed */
+  }
+
+  .navbar-nav .nav-link {
+      color: #fff;
+  }
+}
+
 
 @media (min-width: 576px) {
   .modal {
