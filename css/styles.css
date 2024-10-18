@@ -91,6 +91,7 @@
   }
 }
 
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -301,6 +302,9 @@ kbd kbd {
 
 figure {
   margin: 0 0 1rem;
+}
+profile-img {
+  max-width: 200px;
 }
 
 img,
