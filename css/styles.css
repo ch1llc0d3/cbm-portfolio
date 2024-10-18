@@ -304,7 +304,11 @@ figure {
   margin: 0 0 1rem;
 }
 .profile-img {
-  max-width: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 }
 
 .img-fluid {
