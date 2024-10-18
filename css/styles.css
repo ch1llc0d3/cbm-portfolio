@@ -307,9 +307,10 @@ figure {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, 
+    box-shadow 0.3s ease;
 }
-}
+
 
 .img-fluid {
   max-width: 100%;
