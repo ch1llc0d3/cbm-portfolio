@@ -91,16 +91,6 @@
   }
 } */
 
-/* For mobile screens */
-@media (max-width: 992px) {
-  .navbar-collapse {
-      background-color: #343a40; /* Navbar background when collapsed */
-  }
-
-  .navbar-nav .nav-link {
-      color: #fff;
-  }
-}
 
 
 body {
@@ -4169,6 +4159,60 @@ textarea.form-control-lg {
   padding: 0;
   overflow-y: visible;
 }
+
+/* Navbar Styling */
+.navbar-dark.bg-dark {
+  background-color: var(--dark-gray); /* Keeping the dark background color */
+  padding: 8px 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-dark .navbar-brand {
+  color: var(--gold);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px var(--black);
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: var(--gold);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  color: var(--gold);
+}
+
+.navbar-dark .navbar-nav li a {
+  color: var(--gold);
+  padding: 8px 12px;
+  font-size: 1rem;
+  text-shadow: 1px 1px var(--black);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-dark .navbar-nav li a:hover {
+  background-color: var(--gold);
+  color: var(--black);
+  border-radius: 4px;
+}
+
+.navbar-dark .navbar-nav li {
+  margin-left: 10px;
+}
+
+@media (max-width: 992px) {
+  .navbar-dark .navbar-collapse {
+      background-color: var(--dark-gray);
+  }
+  .navbar-dark .navbar-nav li {
+      margin-left: 0;
+  }
+}
+
 
 .navbar-dark {
   --bs-navbar-color: rgba(255, 255, 255, 0.55);
