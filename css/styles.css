@@ -91,18 +91,14 @@
   }
 } */
 
-@media (max-width: 768px) {
-  #sidebar-wrapper {
-      width: 0;
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100%;
-      z-index: 999;
+/* For mobile screens */
+@media (max-width: 992px) {
+  .navbar-collapse {
+      background-color: #343a40; /* Navbar background when collapsed */
   }
 
-  #sidebar-wrapper.active {
-      width: 100%;
+  .navbar-nav .nav-link {
+      color: #fff;
   }
 }
 
@@ -5416,16 +5412,7 @@ textarea.form-control-lg {
 .modal-footer > * {
   margin: calc(var(--bs-modal-footer-gap) * 0.5);
 }
-/* For mobile screens */
-@media (max-width: 992px) {
-  .navbar-collapse {
-      background-color: #343a40; /* Navbar background when collapsed */
-  }
 
-  .navbar-nav .nav-link {
-      color: #fff;
-  }
-}
 
 
 @media (min-width: 576px) {
