@@ -189,6 +189,11 @@ p {
   box-shadow: 0 0 15px gold; /* Add a glowing effect */
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
