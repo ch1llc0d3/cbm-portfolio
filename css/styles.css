@@ -193,6 +193,12 @@ p {
   height: auto;
 }
 
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
+
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
