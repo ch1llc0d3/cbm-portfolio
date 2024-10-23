@@ -178,11 +178,10 @@ p {
 
 /* Image Styling */
 .prof-img {
-  width: 100px;
-  height: 100px;
+  max-width: 150px;
   border-radius: 50%;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .prof-img:hover {
   transform: scale(1.2); /* Slightly increase size on hover */
